@@ -26,6 +26,6 @@ app.post("/", async (req,res)=>{
 app.get("/",(req,res)=>{
     res.send("get");
 })
-app.listen(3000,()=>{
+app.listen(4000,()=>{
     console.log("server running at port 3000");
 })      
